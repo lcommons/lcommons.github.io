@@ -1,6 +1,70 @@
-<html><head><title>lcommons.github.io</title>
-</head>
-<body>
-<h1>Hello World</h1>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lauren Commons</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+    <script src="script.js"></script>
+    <script src="Chart.min.js"></script>
+
+    <link rel="stylesheet" href="style2.css">
+    <script src="content.js"></script>
+      <script>
+  $( function() {
+  /*    $( "#menu" ).menu();*/
+  $( "#menu" ).menu({
+  items: "> :not(.ui-widget-header)"
+  });
+  } );
+  </script>
+  <style>
+  .ui-menu { width: 200px; }
+  .ui-widget-header { padding: 0.2em; }
+  </style>
+
+  </head>
+  <body>
+    <div class="header">
+      <h1>Lauren Commons</h1>
+    </div>
+    
+    <!-- Navigation Bar - ->
+	 <div class="navbar">
+	   <a href="#">Link</a>
+	   <a href="#">Link</a>
+	   <a href="#">Link</a>
+	   <a href="#">Link</a>
+	 </div>
+	 -->
+    <!-- The flexible grid (content) -->
+    <div class="row">
+      <div class="side">
+	<h2>Things I did</h2>
+	<ul id="menu">
+	  <li class="ui-widget-header"><div>Machine Learning and Data Analysis</div></li>
+	  <li><div onClick="loadContent('dataanalysis',false)"><a href="#titanic">Titanic data</a></div></li>
+	  <li><div onClick="loadContent('dataanalysis',false)"><a href="#policeshootings">Police Shootings</a></div></li>
+	  <li class="ui-widget-header"><div>Other Stuff</div></li>
+	  <li><div onClick="loadContent('marathonlist')">Marathon List</div></li>
+	  <li><div onClick="loadContent('nhmountains')"> New Hampshire 4000ft Mountains</div></li>
+	</ul>
+	<!--
+	    <h2>Things I said</h2>
+	<p>Lorem ipsum dolor sit ame.</p>
+	-->
+      </div>
+      <div class="main" id="main">hey ho
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    <div class="footer">
+      &copy; 2019 - Lauren Commons
+    </div>
+  </body>
 </html>
