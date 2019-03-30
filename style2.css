@@ -1,3 +1,8 @@
+/*
+purple  orange  yellow  fuscia
+#32064a #e56b1f #fcd02c #e42c6a
+best website color
+*/
 * {
   box-sizing: border-box;
 }
@@ -12,10 +17,13 @@ body {
 .header {
   padding: 20px;
   text-align: center;
-  background: #d2e7f9;
-  //  color: white;
-  border: 1px;
-  overflow:hidden; 
+  background: /*#32064a*/#e56b1f; /* #d2e7f9;*/
+  color: white;
+  //border: 1px;
+  overflow:hidden;
+  border-bottom: 5px solid #32064a;
+  font-family: monospace;
+  font-size: 4em;
 }
 
 /* Style the top navigation bar */
@@ -49,13 +57,18 @@ body {
 /* Sidebar/left column */
 .side {
   flex: 20%;
-  background-color: #d2e7f0;// #f1f1f1;
-  padding: 20px;
+  background-color: #fcd02c;//#d2e7f0;// #f1f1f1;
+  padding: 10px;
   border-style: solid;
-  border: 1px;
+  border: 10px;
   overflow:hidden;
+  height: 100%;
 }
 
+.row {
+  height: 100%;
+
+}
 /* Main column */
 .main {
     flex: 70%;
@@ -80,12 +93,29 @@ body {
   width: 100%;
   padding: 5px;
   text-align: center;
-  background: #d2e7f2;
+  color: white;
+  background: #32064a;
+}
+.ui-menu {
+    width: 100%;
+    height: 100%;
+}
+.ui-widget {
+    width: 100%;
+}
+.ui-widget-content {
+    width: 100%;
 }
 
+.ui-widget-header {
+    color: #32064a;
+    background: #e56b1f;
+    font-weight: 200;
+    width: 100%;
+}
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
   .row, .navbar {   
-    flex-direction: column;
+      flex-direction: column;
   }
 }
