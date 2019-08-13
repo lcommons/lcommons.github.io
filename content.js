@@ -35,7 +35,7 @@ const content = {
 	<p>This notebook analyses data compiled by the Washington Post of shooting deaths by police in the United States.</p>\
 	<a href="https://colab.research.google.com/github/lcommons/portfolio/blob/master/policeshootings/PoliceShootings.ipynb#scrollTo=DmRZPVkiUYol"><img src="policeshootings-img-1.jpg"/></a>\
 	<br>',
-    "kindleweather":"<img src='weatherPageExample.jpg'/> ",
+    "kindleweather":"<h2>Kindle Weather Page</h2><p>This application retreives current weather and forecast data from the National Weather Service, produces a web page to display it, and also provides a node.js REST service to server the data.</p><img src='weatherPageExample.jpg'/> ",
     'nhmountains':'<table id="nhmountainstable" class="display" ><thead><tr><th>Date</th><th>Mountain</th><th>Height</th><th>Conditions</th><th>Gear/Notes</th></tr></thead><tbody><tr><td>2019-02-17</td><td>Mt Tecumseh</td><td>4,003\'</td><td>Beautiful! Sunny, 30s, packed snow (two days post snowstorm)</td><td>yak trax </td></tr></tbody></table>',
     'finapps':'<p>I have written two calculators related to planning for Financial Independance and Retireing Early (FIRE).</p><p>The first projects your assets given a current financial situation, saving plans and future spending plans. It is here: <a href="http://lagrange1.herokuapp.com/">http://lagrange1.herokuapp.com/</a></p><p>The second is a calculator to predict when you will achieve Financial Independance (FI): <a href="http://lagrange2.herokuapp.com/index.html">http://lagrange2.herokuapp.com/index.html</a>.</p>'
 }
