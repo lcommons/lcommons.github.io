@@ -40,6 +40,9 @@ const content = {
     'finapps':'<p>I have written two calculators related to planning for Financial Independance and Retireing Early (FIRE).</p><p>The first projects your assets given a current financial situation, saving plans and future spending plans. It is here: <a href="http://lagrange1.herokuapp.com/">http://lagrange1.herokuapp.com/</a></p><p>The second is a calculator to predict when you will achieve Financial Independance (FI): <a href="http://lagrange2.herokuapp.com/index.html">http://lagrange2.herokuapp.com/index.html</a>.</p>',
     'Regression Analysis':'<h2 id="regression">Linear Regression and Logistic Regression</h2>\
 	<h5>September, 2019</h5>\
-	<p>A <a href="https://colab.research.google.com/github/lcommons/portfolio/blob/master/Regression.ipynb">notebook</a> that demonstrates linear regression and logistic regression using SKLearn, as well as pandas, numpy, and data visualization with Matplotlib and Seaborn.</p>'
+	<p>A <a href="https://colab.research.google.com/github/lcommons/portfolio/blob/master/Regression.ipynb">notebook</a> that demonstrates linear regression and logistic regression using SKLearn, as well as pandas, numpy, and data visualization with Matplotlib and Seaborn.</p>',
+    'knearest':'<h2 id="knearest">K Nearest Neighbors</h2>\
+	<h5>September, 2019</h5>\
+	<p>A <a href="https://colab.research.google.com/github/lcommons/portfolio/blob/master/K_Nearest_Neighbors.ipynb">notebook</a> that demonstrates K Nearest Neighbors, plus scaling and fitting data with SKLearn.</p>'
 }
 
