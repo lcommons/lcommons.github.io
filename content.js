@@ -43,8 +43,8 @@ const content = {
 	<p>A <a href="https://colab.research.google.com/github/lcommons/portfolio/blob/master/Regression.ipynb">notebook</a> that demonstrates linear regression and logistic regression using SKLearn, as well as pandas, numpy, and data visualization with Matplotlib and Seaborn.</p>',
     'knearest':'<h2 id="knearest">K Nearest Neighbors</h2>\
 	<h5>September, 2019</h5>\
-	<p>A <a href="https://colab.research.google.com/github/lcommons/portfolio/blob/master/K_Nearest_Neighbors.ipynb">notebook</a> that demonstrates K Nearest Neighbors, plus scaling and fitting data with SKLearn.</p>'
- 'transform':'<h2 id="transform">Transform and Fit</h2>\
+	<p>A <a href="https://colab.research.google.com/github/lcommons/portfolio/blob/master/K_Nearest_Neighbors.ipynb">notebook</a> that demonstrates K Nearest Neighbors, plus scaling and fitting data with SKLearn.</p>',
+    'transform':'<h2 id="transform">Transform and Fit</h2>\
 	<h5>October 28, 2019</h5>\
 	<p>A <a href="https://colab.research.google.com/github/lcommons/portfolio/blob/master/Transform_and_Fit.ipynb">notebook</a> expands on scaling and fitting data with SKLearn.</p>'
 }
