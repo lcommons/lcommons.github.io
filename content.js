@@ -32,9 +32,7 @@ const content = {
 	<img src="titanic-img-1.jpg"/>',
     "policeshootings":'<h2 id="policeshootings">Police Shootings in the United States</h2>\
 	<h5>September, 2024</h5>\
-	<p>
-	    <a href="https://colab.research.google.com/github/lcommons/portfolio/blob/master/policeshootings/PoliceShootings.ipynb#scrollTo=DmRZPVkiUYol">This notebook</a>
-	    analyses data compiled by the Washington Post of shooting deaths by police in the United States.</p>\
+	<p><a href="https://colab.research.google.com/github/lcommons/portfolio/blob/master/policeshootings/PoliceShootings.ipynb#scrollTo=DmRZPVkiUYol">This notebook</a> analyses data compiled by the Washington Post of shooting deaths by police in the United States.</p>\
 	<a href="https://colab.research.google.com/github/lcommons/portfolio/blob/master/policeshootings/PoliceShootings.ipynb#scrollTo=DmRZPVkiUYol"><img src="policeshootings-img-1.jpg"/></a>\
 	<br>',
     "kindleweather":"<h2>Kindle Weather Page</h2><p><a href='https://github.com/lcommons/enviromonitor'>This application</a> retrieves current weather and forecast data from the National Weather Service, produces a web page to display it, and also provides a node.js REST service to server the data.</p><img src='weatherPageExample.jpg'/> ",
