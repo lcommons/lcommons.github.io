@@ -29,12 +29,10 @@ const content = {
                <li><a href="https://github.com/lcommons/portfolio/blob/95871f7a632642f5ac4550b6ac079f3c3604bbc4/titanic/titanic-2.ipynb">This Jupyter Notebook</a> implements a logistic regression analysis of the Titanic passenger survival data</li>\
                <li><a href="https://github.com/lcommons/portfolio/blob/95871f7a632642f5ac4550b6ac079f3c3604bbc4/titanic/titanic-3.ipynb">This Jupyter Notebook</a> implements a Random Forest analysis of the Titanic data.</li>\
                <li><a href="https://github.com/lcommons/portfolio/blob/95871f7a632642f5ac4550b6ac079f3c3604bbc4/titanic/titanic-3b.ipynb">This Jupyter Notebook</a> explores the top parameters identified in the earlier random forest analysis.</li>\
-	<img src="titanic-img-1.jpg"/>',
-    "policeshootings":'<h2 id="policeshootings">Police Shootings in the United States</h2>\
+	<img src="titanic-img-1.jpg"/>',"policeshootings":'<h2 id="policeshootings">Police Shootings in the United States</h2>\
 	<h5>September, 2024</h5>\
 	<p><a href="https://colab.research.google.com/drive/17_3X54SSDkbgvzh1hcIDxISVCTgddkQ9?usp=sharing">This notebook</a> analyses version 2 of data compiled by the Washington Post of shooting deaths by police in the United States.</p>\
-	<a href="https://colab.research.google.com/github/lcommons/portfolio/blob/master/policeshootings/PoliceShootings.ipynb#scrollTo=DmRZPVkiUYol"><img src="policeshootings-img-2.jpg"/></a>	
-	    <p><a href="https://colab.research.google.com/github/lcommons/portfolio/blob/master/policeshootings/PoliceShootings.ipynb#scrollTo=DmRZPVkiUYol">an older version of this notebook</a> analyses data compiled by the Washington Post of shooting deaths by police in the United States.</p>\
+	<a href="https://colab.research.google.com/github/lcommons/portfolio/blob/master/policeshootings/PoliceShootings.ipynb#scrollTo=DmRZPVkiUYol"><img src="policeshootings-img-2.jpg"/></a><p><a href="https://colab.research.google.com/github/lcommons/portfolio/blob/master/policeshootings/PoliceShootings.ipynb#scrollTo=DmRZPVkiUYol">an older version of this notebook</a> analyses data compiled by the Washington Post of shooting deaths by police in the United States.</p>\
 	<a href="https://colab.research.google.com/github/lcommons/portfolio/blob/master/policeshootings/PoliceShootings.ipynb#scrollTo=DmRZPVkiUYol"><img src="policeshootings-img-1.jpg"/></a>\
 	<br>',
     "kindleweather":"<h2>Kindle Weather Page</h2><p><a href='https://github.com/lcommons/enviromonitor'>This application</a> retrieves current weather and forecast data from the National Weather Service, produces a web page to display it, and also provides a node.js REST service to server the data.</p><img src='weatherPageExample.jpg'/> ",
